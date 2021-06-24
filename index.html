@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>Memory Game</title>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <!-- <link rel="stylesheet" href="normalize.css"> -->
+</head>
+
+<body>
+  <header>
+    <h1>Memory Game</h1>
+    <button class="restart">Reset</button>
+    <button class="start">Start</button>
+
+
+    <div class="score-container">
+      <p>Score</p>
+      <div class="score">0</div>
+    </div>
+  </header>
+
+  <div class="high">
+    Highest Score
+    <div>0</div>
+  </div>
+  <div class="low">
+    Lowest Score
+    <div>0</div>
+  </div>
+  <div class="slider-container">
+    <p>Rows of Cards</p>
+    <input type="range" min="1" max="5" class="range-slider">
+  </div>
+
+
+
+
+  <main id="game" class="six">
+
+  </main>
+
+  <footer>
+    Designed and Implemented by Adam Bunker for Springboard Software Engineering Bootcamp 2021
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
